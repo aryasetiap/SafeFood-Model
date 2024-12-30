@@ -111,8 +111,8 @@ def generate_receiver_data(num_receivers):
     return receiver_data
 
 # Membuat data penyumbang dan penerima
-num_donors = 100
-num_receivers = 100
+num_donors = 500
+num_receivers = 500
 
 donor_data = generate_donor_data(num_donors)
 receiver_data = generate_receiver_data(num_receivers)
