@@ -22,7 +22,7 @@ def generate_donor_data(num_donors):
         donor_id = f"D{i+1}"
         jenis_makanan = random.choice(['makanan', 'minuman', 'makanan_minuman'])
         jumlah_disumbangkan = random.randint(1, 50)
-        lokasi_lat_penyumbang = random.uniform(-5.405901634725342, -5.365442970161212)
+        lokasi_lat_penyumbang = random.uniform(-5.405901634725342, -5.365442970161212) # Koordinat dibatasi pada area Kota Bandar Lampung
         lokasi_lon_penyumbang = random.uniform(105.22551998740258, 105.29009985878861)
         kondisi_makanan = random.choice(['layak_konsumsi', 'hampir_kadaluarsa', 'tidak_layak_konsumsi'])
 
