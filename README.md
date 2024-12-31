@@ -19,35 +19,24 @@ Untuk menginstal proyek ini, ikuti langkah-langkah berikut:
 
 ### 1. Clone repository:
 
-    ```bash
     git clone https://github.com/aryasetiap/SafeFood-Model.git
-    ```
 
 ### 2. Masuk ke direktori proyek:
 
-    ```bash
     cd SafeFood-Model
-    ```
 
 ### 3. Install dependencies:
 
-    ```bash
+    // buat virtual environment
     python -m venv venv
-    ```
 
-    a. Windows
-    ```bash
+    // Windows
     venv\Scripts\activate
-    ```
-
-    b. Mac/Linux
-    ```bash
+    // Linux/Mac
     source venv/bin/activate
-    ```
 
-    ```bash
+    // install dependencies
     pip install -r requirements.txt
-    ```
 
 ## Penggunaan
 
@@ -55,15 +44,11 @@ Setelah proyek terinstal, Anda dapat menjalankan aplikasi menggunakan Streamlit 
 
 ### 1. Pindah ke direktori script
 
-```bash
-cd script
-```
+    cd script
 
 ### 2. Jalankan Streamlit
 
-```bash
-streamlit run 05_Deploy_Streamlit.py
-```
+    streamlit run 05_Deploy_Streamlit.py
 
 ### Input Data
 
@@ -87,36 +72,34 @@ streamlit run 05_Deploy_Streamlit.py
 
 ## Struktur Proyek
 
-```bash
-SafeFood-Model/
-├── data/
-│   ├── processed/
-│   │   ├── data_for_model.csv
-│   │   ├── test_set.csv
-│   │   ├── training_set.csv
-│   │   └── validation_set.csv
-│   └── raw/
-│       ├── data_donor.csv
-│       ├── data_penerima.csv
-│       └── data_donor_recipient_matching.csv
-├── models/
-│   ├── safe_food_model.h5
-│   ├── safe_food_model.keras
-│   ├── safe_food_model.tflite
-│   └── tfjs_model/
-│       └── model.json
-├── notebooks/
-│   ├── 02_Desain_Model_NN.ipynb
-│   ├── 03_Data_Preprocessing.ipynb
-│   └── 04_Desain_Model_NN.ipynb
-├── script/
-│   ├── 01_Generate_Data.py
-│   ├── 02_Merge_Data.py
-│   └── 05_Deploy_Streamlit.py
-├── .gitignore
-├── README.md
-└── requirements.txt
-```
+    SafeFood-Model/
+    ├── data/
+    │   ├── processed/
+    │   │   ├── data_for_model.csv
+    │   │   ├── test_set.csv
+    │   │   ├── training_set.csv
+    │   │   └── validation_set.csv
+    │   └── raw/
+    │       ├── data_donor.csv
+    │       ├── data_penerima.csv
+    │       └── data_donor_recipient_matching.csv
+    ├── models/
+    │   ├── safe_food_model.h5
+    │   ├── safe_food_model.keras
+    │   ├── safe_food_model.tflite
+    │   └── tfjs_model/
+    │       └── model.json
+    ├── notebooks/
+    │   ├── 02_Desain_Model_NN.ipynb
+    │   ├── 03_Data_Preprocessing.ipynb
+    │   └── 04_Desain_Model_NN.ipynb
+    ├── script/
+    │   ├── 01_Generate_Data.py
+    │   ├── 02_Merge_Data.py
+    │   └── 05_Deploy_Streamlit.py
+    ├── .gitignore
+    ├── README.md
+    └── requirements.txt
 
 ## Authors
 
