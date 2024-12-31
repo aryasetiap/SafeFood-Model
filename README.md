@@ -52,23 +52,23 @@ Setelah proyek terinstal, Anda dapat menjalankan aplikasi menggunakan Streamlit 
 
 ### Input Data
 
-    - ID Penyumbang: ID unik untuk setiap penyumbang.
-    - Jenis Makanan Disumbangkan: Pilihan antara 'Makanan', 'Minuman', atau 'Makanan dan Minuman'.
-    - Jumlah Makanan yang Disumbangkan: Jumlah makanan yang akan disumbangkan.
-    - Kondisi Makanan: Pilihan antara 'Layak Konsumsi', 'Hampir Kadaluarsa', atau 'Tidak Layak Konsumsi'.
-    - Lokasi Penyumbang: Latitude dan Longitude lokasi penyumbang.
-    - Kebutuhan Khusus: Apakah makanan halal, untuk anak-anak, lansia, atau mengandung alergen.
+- ID Penyumbang: ID unik untuk setiap penyumbang.
+- Jenis Makanan Disumbangkan: Pilihan antara 'Makanan', 'Minuman', atau 'Makanan dan Minuman'.
+- Jumlah Makanan yang Disumbangkan: Jumlah makanan yang akan disumbangkan.
+- Kondisi Makanan: Pilihan antara 'Layak Konsumsi', 'Hampir Kadaluarsa', atau 'Tidak Layak Konsumsi'.
+- Lokasi Penyumbang: Latitude dan Longitude lokasi penyumbang.
+- Kebutuhan Khusus: Apakah makanan halal, untuk anak-anak, lansia, atau mengandung alergen.
 
 ### Output
 
-    - Matching Score: Skor yang menunjukkan tingkat kecocokan antara makanan yang disumbangkan dan penerima yang membutuhkan.
-    - Penerima Terbaik: Daftar 15 penerima dengan matching score tertinggi, ditampilkan bersama detail lengkap.
+- Matching Score: Skor yang menunjukkan tingkat kecocokan antara makanan yang disumbangkan dan penerima yang membutuhkan.
+- Penerima Terbaik: Daftar 15 penerima dengan matching score tertinggi, ditampilkan bersama detail lengkap.
 
 ## Model Machine Learning
 
-    Model yang digunakan dalam aplikasi ini adalah model pembelajaran mesin yang dilatih untuk memprediksi kecocokan antara makanan yang disumbangkan dan penerima. Model ini disimpan dalam format .keras dan digunakan untuk melakukan prediksi berdasarkan input pengguna.
+Model yang digunakan dalam aplikasi ini adalah model pembelajaran mesin yang dilatih untuk memprediksi kecocokan antara makanan yang disumbangkan dan penerima. Model ini disimpan dalam format .keras dan digunakan untuk melakukan prediksi berdasarkan input pengguna.
 
-    Model ini dilatih menggunakan dataset penerima dan karakteristik makanan yang disumbangkan, termasuk lokasi, jumlah, kondisi, dan kebutuhan khusus.
+Model ini dilatih menggunakan dataset penerima dan karakteristik makanan yang disumbangkan, termasuk lokasi, jumlah, kondisi, dan kebutuhan khusus.
 
 ## Struktur Proyek
 
